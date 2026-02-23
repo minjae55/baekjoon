@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chatgpt/chatgpt.iml" filepath="$PROJECT_DIR$/chatgpt/chatgpt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/goody/goody.iml" filepath="$PROJECT_DIR$/goody/goody.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-adv-2/java-adv-2.iml" filepath="$PROJECT_DIR$/java-adv-2/java-adv-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basic.iml" filepath="$PROJECT_DIR$/java-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-mid-2/java-mid-2.iml" filepath="$PROJECT_DIR$/java-mid-2/java-mid-2.iml" />
