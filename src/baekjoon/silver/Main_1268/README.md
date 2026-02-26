@@ -1,4 +1,4 @@
-### 문제 정보
+### ℹ️ 문제 정보
   - 번호 : 1268
   - 난이도 : Silver
   - 분류 : 구현, 완전탐색
@@ -28,7 +28,10 @@
   - nextInt() 직접 입력
 - 최대값 찾기 로직 단순화 필요
   - 단순히 > 비교 만으로 정리 가능
- 
+ <img width="244" height="38" alt="image" src="https://github.com/user-attachments/assets/7c1e1ae3-9fdd-492d-bc12-1f3d030f3fdf" />
+
+        String line = scanner.nextLine();
+        String[] split = line.split(" ");
 ### 비교
   String line = scanner.nextLine();
   String[] split = line.split(" ");
@@ -40,6 +43,7 @@
  - 구현 문제는 자료구조 선택이 핵심
    - 문제 조건이 고정되어 있다면 단순한 구조가 더 좋음
  - 최대값 찾기 로직은 항상 "가장 단순한 형태" 생각
+
 
 
 
