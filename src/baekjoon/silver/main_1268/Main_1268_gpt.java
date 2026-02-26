@@ -2,7 +2,7 @@ package baekjoon.silver.main_1268;
 
 import java.util.Scanner;
 
-public class Main_1268_Gpt {
+public class Main_1268_Review {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
