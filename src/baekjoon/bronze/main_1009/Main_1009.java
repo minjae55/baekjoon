@@ -1,30 +1,29 @@
-package baekjoon.bronze.main_1009;
-
 import java.util.Scanner;
 
-public class Main_1009{
+public class Main_1009 {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         int counter = scanner.nextInt();
 
-        for (int i = 1; i <= counter; i++) {
-            int integerA = scanner.nextInt();
-            int integerB = scanner.nextInt() % 4;
+        for (int i = 0; i < counter; i++) {
 
-            int lastDigit = 0;
+            int integerA = scanner.nextInt() % 10;
+            int integerB = scanner.nextInt();
 
-            if(integerB != 0) {
-                lastDigit = (int) Math.pow(integerA, integerB) % 10;
-            } else {
-                lastDigit = (int) Math.pow(integerA, 4) % 10;
+            int exponent = integerB % 4;
+
+            if (exponent == 0) {
+                exponent = 4;
             }
 
-            if (lastDigit == 0) {
+            int result = (int) Math.pow(integerA, exponent) % 10;
+
+            if (result == 0) {
                 System.out.println(10);
             } else {
-                System.out.println(lastDigit);
+                System.out.println(result);
             }
         }
     }
