@@ -1,4 +1,4 @@
-package algorithm.backtracking.main_1026;
+package java.algorithm.backtracking.main_1026;
 
 import java.util.*;
 public class Main_1026{

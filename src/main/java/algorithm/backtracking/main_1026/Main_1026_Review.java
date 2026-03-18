@@ -1,4 +1,4 @@
-package algorithm.backtracking.main_1026;
+package java.algorithm.backtracking.main_1026;
 
 import java.io.BufferedReader;
 import java.io.IOException;

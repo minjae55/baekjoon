@@ -1,4 +1,4 @@
-package algorithm.backtracking.main_1759;
+package java.algorithm.backtracking.main_1759;
 
 import java.io.BufferedReader;
 import java.io.IOException;

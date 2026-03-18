@@ -1,4 +1,4 @@
-package algorithm.debug;
+package java.algorithm.debug;
 
 public class DebugPractice {
 
