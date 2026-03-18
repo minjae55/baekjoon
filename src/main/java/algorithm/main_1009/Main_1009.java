@@ -1,4 +1,4 @@
-package algorithm.bronze.main_1009;
+package algorithm.main_1009;
 
 import java.util.Scanner;
 
